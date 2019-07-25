@@ -1,7 +1,7 @@
 from pyhubtel_sms import SMS, Message
 
 def sms(telephone, message):
-	sms = SMS(client_id='dnymazlw', client_secret='hqynfckc')
+	sms = SMS(client_id='#', client_secret='#')
 	message = Message(
 			sender='COMPSSA',
 			content=message,
